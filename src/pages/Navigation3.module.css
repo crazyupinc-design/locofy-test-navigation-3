@@ -1,0 +1,80 @@
+.logoIcon {
+  width: 141px;
+  height: 36px;
+  object-fit: cover;
+}
+.navbarBrand {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about {
+  position: relative;
+  line-height: 150%;
+}
+.navbarLink {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getStarted {
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+}
+.navbarButton {
+  background-color: var(--color-black);
+  padding: 8px 20px;
+  justify-content: center;
+  font-size: 12px;
+  color: var(--color-white);
+}
+.navbarButton,
+.navbarContent,
+.navbarMenu,
+.navbarcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbarMenu {
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.navbarContent,
+.navbarcontainer {
+  width: 1200px;
+  justify-content: space-between;
+}
+.navbarcontainer {
+  justify-content: center;
+}
+.navbarLogoLeft,
+.navigation3 {
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+}
+.navbarLogoLeft {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  align-items: flex-start;
+  justify-content: center;
+}
+.navigation3 {
+  position: relative;
+  width: 100%;
+  height: 1024px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
